@@ -1,0 +1,7 @@
+<h2>welcome bot</h2>
+
+<input type="text" [(ngModel)]="value" />
+<button (click)="onShowOrHide()">show/hide</button>
+<br />
+<hr />
+<app-life-cycle [value]="value" *ngIf="showLifeCycle"></app-life-cycle>
